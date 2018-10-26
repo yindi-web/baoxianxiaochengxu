@@ -1,0 +1,50 @@
+<!--pages/agent_core/agent_core.wxml-->
+<view class="container">
+  <view class='agent_core_heads'>
+    <view class='agent_core_head'>
+      <view class='agent_core_head_left'>
+        <image class='health_topic_single_pic' src="../../images/agent_core1.png"></image>
+        <view class='agent_core_head_left_font'>我的客户</view>
+      </view>
+      <view class='agent_core_head_right'>
+        <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
+      </view>
+    </view>
+    <view class='agent_core_head'>
+      <view class='agent_core_head_left'>
+        <image class='health_topic_single_pic' src="../../images/agent_core2.png"></image>
+        <view class='agent_core_head_left_font'>健康运动</view>
+      </view>
+      <view class='agent_core_head_right'>
+        <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
+      </view>
+    </view>
+    <view class='agent_core_head'>
+      <view class='agent_core_head_left'>
+        <image class='health_topic_single_pic' src="../../images/agent_core3.png"></image>
+        <view class='agent_core_head_left_font'>产品关注</view>
+      </view>
+      <view class='agent_core_head_right'>
+        <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
+      </view>
+    </view>
+    <view class='agent_core_head'>
+      <view class='agent_core_head_left'>
+        <image class='health_topic_single_pic' src="../../images/agent_core4.png"></image>
+        <view class='agent_core_head_left_font'>客户测验</view>
+      </view>
+      <view class='agent_core_head_right'>
+        <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
+      </view>
+    </view>
+    <view class='agent_core_head'>
+      <view class='agent_core_head_left'>
+        <image class='health_topic_single_pic' src="../../images/agent_core5.png"></image>
+        <view class='agent_core_head_left_font'>分享</view>
+      </view>
+      <view class='agent_core_head_right'>
+        <view class='agent_core_head_right_font'>点击分享</view>
+      </view>
+    </view>
+  </view>
+</view>

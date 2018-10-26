@@ -1,0 +1,15 @@
+<!--pages/binding/binding.wxml-->
+<view class="container">
+  <!-- 输入手机号 -->
+  <view class='binding_heads'>
+    <view class='binding_head'>
+      <input name="input" class='binding_head_left' placeholder="请输入手机号" />
+    </view>
+    <view class='binding_head'>
+      <input name="input" class='binding_head_left' placeholder="请输入短信验证码" />
+      <view class='binding_head_right'>获取验证码</view>
+    </view>
+  </view>
+  <!-- 下一页 -->
+  <button class='binding_font'>下一页</button>
+</view>

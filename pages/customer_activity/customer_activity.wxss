@@ -1,0 +1,62 @@
+/* pages/customer_activity/customer_activity.wxss */
+
+.customer_activity_dates {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.customer_activity_date {
+  width: 94%;
+  height: 100rpx;
+  margin: 50rpx auto;
+  border: 2rpx solid #ef6f28;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.customer_activity_date_block {
+  width: 33%;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #ef6f28;
+}
+
+.customer_activity_date_block:nth-child(2) {
+  border-left: 2rpx solid #ef6f28;
+  border-right: 2rpx solid #ef6f28;
+}
+
+.customer_activity_date .hover{
+  background: #ef6f28;
+  color: #fff;
+}
+
+.customer_lists {
+  width: 750rpx;
+}
+
+.customer_list {
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.customer_list:nth-child(2n) {
+  width: 750rpx;
+  background: #fbc7aa;
+}
+
+.customer_list_block {
+  width: 20%;
+  font-size: 30rpx;
+  color: #333;
+  text-align: center;
+  word-break:break-all;
+  margin: 10rpx 0;
+}

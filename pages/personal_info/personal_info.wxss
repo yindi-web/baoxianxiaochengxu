@@ -1,0 +1,49 @@
+/* pages/personal_info/personal_info.wxss */
+
+.personal_info_heads {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.personal_info_head {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #c1c1c1;
+}
+
+.personal_info_head_left {
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 3%;
+}
+
+.personal_info_head_right {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 3%;
+  text-align: right;
+}
+
+.personal_info_right_input {
+  font-size: 30rpx;
+  color: #333;
+}
+
+.personal_info_right_font_s {
+  width: 100%;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.personal_info_right_pic {
+  width: 20rpx;
+  height: 36rpx;
+  margin-left: 20rpx;
+}

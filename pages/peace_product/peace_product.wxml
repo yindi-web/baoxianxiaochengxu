@@ -1,0 +1,25 @@
+<!--pages/peace_product/peace_product.wxml-->
+<view class="container">
+  <!-- 产品show -->
+  <view class='peace_product_heads'>
+    <view class='peace_product_head'>
+      <view class='peace_product_head_font1'>福禄康瑞</view>
+      <view class='peace_product_head_font2'>百种疾病全面覆盖</view>
+      <view class='peace_product_head_font3'>点击查看></view>
+    </view>
+  </view>
+  <view class='peace_product_heads'>
+    <view class='peace_product_head'>
+      <view class='peace_product_head_font1'>状元树</view>
+      <view class='peace_product_head_font2'>教育储备 专款专用 伴成长</view>
+      <view class='peace_product_head_font3'>点击查看></view>
+    </view>
+  </view>
+  <view class='peace_product_heads'>
+    <view class='peace_product_head'>
+      <view class='peace_product_head_font1'>福寿连连</view>
+      <view class='peace_product_head_font2'>两全保险</view>
+      <view class='peace_product_head_font3'>点击查看></view>
+    </view>
+  </view>
+</view>

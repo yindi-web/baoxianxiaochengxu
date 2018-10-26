@@ -1,0 +1,91 @@
+/* pages/personal_core/personal_core.wxss */
+
+.personal_core_heads {
+  width: 750rpx;
+  height: 274rpx;
+  background: url(http://app161.app.longcai.net/xcximg/personal_background.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  border-top: 2rpx solid #c1c1c1;
+  display: block;
+}
+
+.personal_core_head_pic {
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 312rpx;
+}
+
+.personal_core_badge {
+  width: 54rpx;
+  height: 72rpx;
+  position: absolute;
+  top: 120rpx;
+  left: 400rpx;
+}
+
+.personal_core_head_font {
+  font-size: 24rpx;
+  color: #0067e8;
+  position: absolute;
+  top: 130rpx;
+  left: 420rpx;
+}
+
+.personal_core_head {
+  width: 750rpx;
+  text-align: center;
+  margin-top: 180rpx;
+}
+
+.personal_core_head_font2 {
+  font-size: 30rpx;
+  color: #333;
+}
+
+.personal_core_head_font3 {
+  font-size: 26rpx;
+  color: #ef722d;
+}
+
+.personal_core_centers {
+  width: 750rpx;
+}
+
+.personal_core_center {
+  width: 750rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #c1c1c1;
+}
+
+.personal_core_center_left {
+  margin-left: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.personal_core_center_pic {
+  width: 42rpx;
+  height: 52rpx;
+  margin-right: 20rpx;
+}
+
+.personal_core_center_font {
+  font-size: 30rpx;
+  color: #333;
+}
+
+.personal_core_center_right {
+  margin-right: 3%;
+  width: 16rpx;
+  height: 26rpx;
+}

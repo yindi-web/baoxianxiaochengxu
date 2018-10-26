@@ -1,0 +1,104 @@
+/**index.wxss**/
+
+page {
+  background: #f2f2f2;
+}
+
+.index_heads {
+  width: 750rpx;
+  height: 424rpx;
+  background: url(http://app161.app.longcai.net/xcximg/banner.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.index_head {
+  width: 100rpx;
+  text-align: center;
+  position: absolute;
+  top: 30rpx;
+  right: 20rpx;
+}
+
+.index_head_pic {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.index_head_font {
+  font-size: 24rpx;
+  color: #444;
+}
+
+.index_centers {
+  width: 100%;
+  position: absolute;
+  top: 400rpx;
+  margin-bottom: 130rpx;
+}
+
+.index_center {
+  width: 94%;
+  height: 210rpx;
+  background: url(http://app161.app.longcai.net/xcximg/sports.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 40rpx auto;
+  display: block;
+}
+
+.index_center:nth-child(2) {
+  background: url(http://app161.app.longcai.net/xcximg/life.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.index_center:nth-child(3) {
+  background: url(http://app161.app.longcai.net/xcximg/manage.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.index_center_font1 {
+  font-size: 30rpx;
+  color: #eb5000;
+  margin: 0 3%;
+  padding-top: 4%;
+}
+
+.index_center_font2 {
+  font-size: 26rpx;
+  color: #a0a0a0;
+  margin: 3%;
+}
+
+.index_center_font3 {
+  font-size: 22rpx;
+  color: #333;
+  margin: 3%;
+}
+
+.index_menus {
+  width: 750rpx;
+  background: #fff;
+  border-top: 2rpx solid #dadada;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 10rpx 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.index_menu {
+  width: 25%;
+  text-align: center;
+}
+
+.index_menu_pic {
+  width: 58rpx;
+  height: 58rpx;
+}
+
+.index_menu_font {
+  font-size: 30rpx;
+  color: #444;
+}

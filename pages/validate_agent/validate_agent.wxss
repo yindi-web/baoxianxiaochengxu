@@ -1,0 +1,31 @@
+/* pages/validate_agent/validate_agent.wxss */
+
+.validate_agent_heads{
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.validate_agent_head{
+  width: 100%;
+  border-bottom: 2rpx solid #c1c1c1;
+}
+
+.validate_agent_head_input{
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 3%;
+  padding: 30rpx 0;
+}
+
+.validate_agent_button{
+  width: 94%;
+  text-align: center;
+  background: #ef6f28;
+  height: 110rpx;
+  line-height: 110rpx;
+  font-size: 30rpx;
+  color: #fff;
+  position: fixed;
+  bottom: 50rpx;
+  left: 3%;
+}

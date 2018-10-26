@@ -1,0 +1,55 @@
+<!--pages/follow_list/follow_list.wxml-->
+<view class="container">
+  <!-- 客户信息 -->
+  <view class='customer_lists'>
+    <view class='customer_list'>
+      <view class='customer_list_block'>姓名</view>
+      <view class='customer_list_block'>年龄</view>
+      <view class='customer_list_block'>性别</view>
+      <view class='customer_list_block'>电话</view>
+      <view class='customer_list_block'>步数</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+    <view class='customer_list'>
+      <view class='customer_list_block'>小M</view>
+      <view class='customer_list_block'>30</view>
+      <view class='customer_list_block'>男</view>
+      <view class='customer_list_block'>13000000000</view>
+      <view class='customer_list_block'>312455</view>
+    </view>
+  </view>
+</view>

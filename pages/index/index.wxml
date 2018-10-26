@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 顶部签到 -->
+  <view class='index_heads'>
+    <view class='index_head'>
+      <navigator url='/pages/signin/signin' open-type='navigate' hover-class="changestyle">
+        <image class='index_head_pic' src="../../images/signin.png"></image>
+        <view class='index_head_font'>签到</view>
+      </navigator>
+    </view>
+    <view class='index_centers'>
+      <view class='index_center'>
+        <navigator url='/pages/healthy_motion/healthy_motion' open-type='navigate' hover-class="changestyle">
+          <view class='index_center_font1'>健康运动</view>
+          <view class='index_center_font2'>自动记录步数 获得更多惊喜</view>
+          <view class='index_center_font3'>点击查看></view>
+        </navigator>
+      </view>
+      <view class='index_center'>
+        <navigator url='/pages/healthy_life/healthy_life' open-type='navigate' hover-class="changestyle">
+          <view class='index_center_font1'>健康生活</view>
+          <view class='index_center_font2'>知识供养 争做“健康达人”</view>
+          <view class='index_center_font3'>点击查看></view>
+        </navigator>
+      </view>
+      <view class='index_center'>
+        <navigator url='/pages/healthy_manage/healthy_manage' open-type='navigate' hover-class="changestyle">
+          <view class='index_center_font1'>健康管理</view>
+          <view class='index_center_font2'>太平三大服务项目待您开启</view>
+          <view class='index_center_font3'>点击查看></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <!-- 底部菜单 -->
+  <view class='index_menus'>
+    <view class='index_menu'>
+      <navigator url='/pages/peace_product/peace_product' open-type='navigate' hover-class="changestyle">
+        <image class='index_menu_pic' src="../../images/icon1.png"></image>
+        <view class='index_menu_font'>产品show</view>
+      </navigator>
+    </view>
+    <view class='index_menu'>
+      <navigator url='/pages/long_page/long_page' open-type='navigate' hover-class="changestyle">
+        <image class='index_menu_pic' src="../../images/icon2.png"></image>
+        <view class='index_menu_font'>太平人寿</view>
+      </navigator>
+    </view>
+    <view class='index_menu'>
+      <navigator url='/pages/health/health' open-type='navigate' hover-class="changestyle">
+        <image class='index_menu_pic' src="../../images/icon3.png"></image>
+        <view class='index_menu_font'>健康小检测</view>
+      </navigator>
+    </view>
+    <view class='index_menu'>
+      <navigator url='/pages/personal_core/personal_core' open-type='navigate' hover-class="changestyle">
+        <image class='index_menu_pic' src="../../images/icon4.png"></image>
+        <view class='index_menu_font'>个人中心</view>
+      </navigator>
+    </view>
+  </view>
+</view>

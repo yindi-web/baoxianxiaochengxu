@@ -1,0 +1,24 @@
+<!--pages/healthy_motion/healthy_motion.wxml-->
+<view class="container">
+  <!-- 步数 -->
+  <view class='healthy_motion_heads'>
+    <view class='healthy_motion_head'>
+      <view class='healthy_motion_head_left'>今日步数</view>
+      <view class='healthy_motion_head_right'>5593
+        <text class='healthy_motion_head_small'>步</text>
+      </view>
+    </view>
+    <view class='healthy_motion_head'>
+      <view class='healthy_motion_head_left'>本周步数</view>
+      <view class='healthy_motion_head_right'>25593
+        <text class='healthy_motion_head_small'>步</text>
+      </view>
+    </view>
+    <view class='healthy_motion_head'>
+      <view class='healthy_motion_head_left'>本月步数</view>
+      <view class='healthy_motion_head_right'>325593
+        <text class='healthy_motion_head_small'>步</text>
+      </view>
+    </view>
+  </view>
+</view>

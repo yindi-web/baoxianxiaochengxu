@@ -1,0 +1,18 @@
+<!--pages/product_details/product_details.wxml-->
+<view class="container">
+  <!-- web页 -->
+  <view class='index_heads'>
+    <image class='index_head_pic' src="../../images/product_details1.png"></image>
+  </view>
+  <!-- 点赞分享 -->
+  <view class='product_details_foots'>
+    <view class='product_details_foot'>
+      <image class='product_details_foot_pic' src="../../images/uncheck.png"></image>
+      <view class='product_details_foot_fonts'>点赞</view>
+    </view>
+    <view class='product_details_foot'>
+      <image class='product_details_foot_pic' src="../../images/share.png"></image>
+      <view class='product_details_foot_fonts hover'>分享</view>
+    </view>
+  </view>
+</view>

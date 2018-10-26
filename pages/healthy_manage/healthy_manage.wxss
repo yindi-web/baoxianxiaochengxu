@@ -1,0 +1,11 @@
+/* pages/healthy_manage/healthy_manage.wxss */
+
+.index_heads {
+  width: 750rpx;
+}
+
+.index_head_pic {
+  width: 750rpx;
+  height: 100vh;
+  display: block;
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/health/health",
+    "pages/binding/binding",
+    "pages/personal_info/personal_info",
+    "pages/agent/agent",
+    "pages/validate_agent/validate_agent",
+    "pages/agent_core/agent_core",
+    "pages/customer_list/customer_list",
+    "pages/customer_activity/customer_activity",
+    "pages/customer_follow/customer_follow",
+    "pages/follow_list/follow_list",
+    "pages/test_see/test_see",
+    "pages/test_result/test_result",
+    "pages/user_login/user_login",
+    "pages/healthy_life/healthy_life",
+    "pages/healthy_manage/healthy_manage",
+    "pages/about/about",
+    "pages/product_details/product_details",
+    "pages/long_page/long_page",
+    "pages/healthy_motion/healthy_motion",
+    "pages/peace_product/peace_product",
+    "pages/personal_core/personal_core",
+    "pages/signin/signin"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,44 @@
+<!--pages/personal_core/personal_core.wxml-->
+<view class="container">
+  <!-- head -->
+  <view class='personal_core_heads'>
+    <image class='personal_core_head_pic' src="../../images/head_portrait.png"></image>
+    <image class='personal_core_badge' src="../../images/personal_badge.png"></image>
+    <view class='personal_core_head_font'>1</view>
+    <view class='personal_core_head'>
+      <view class='personal_core_head_font2'>Bruce</view>
+      <view class='personal_core_head_font3'>健康典范</view>
+    </view>
+  </view>
+  <!-- 信息列表 -->
+  <view class='personal_core_centers'>
+    <view class='personal_core_center'>
+      <view class='personal_core_center_left'>
+        <image class='personal_core_center_pic' src="../../images/personal_core1.png"></image>
+        <view class='personal_core_center_font'>个人信息</view>
+      </view>
+      <image class='personal_core_center_right' src="../../images/enter.png"></image>
+    </view>
+    <view class='personal_core_center'>
+      <view class='personal_core_center_left'>
+        <image class='personal_core_center_pic' src="../../images/personal_core2.png"></image>
+        <view class='personal_core_center_font'>绑定手机号</view>
+      </view>
+      <image class='personal_core_center_right' src="../../images/enter.png"></image>
+    </view>
+    <view class='personal_core_center'>
+      <view class='personal_core_center_left'>
+        <image class='personal_core_center_pic' src="../../images/personal_core3.png"></image>
+        <view class='personal_core_center_font'>我的代理人</view>
+      </view>
+      <image class='personal_core_center_right' src="../../images/enter.png"></image>
+    </view>
+    <view class='personal_core_center'>
+      <view class='personal_core_center_left'>
+        <image class='personal_core_center_pic' src="../../images/personal_core4.png"></image>
+        <view class='personal_core_center_font'>代理人模块</view>
+      </view>
+      <image class='personal_core_center_right' src="../../images/enter.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,66 @@
+<!--pages/signin/signin.wxml-->
+<view class="container">
+  <!-- head-背景 -->
+  <view class='signin_heads'>
+    <view class='signin_head_tops'>
+      <view class='signin_head_button'>点击签到</view>
+    </view>
+    <view class='signin_head_foots'>
+      <view class='signin_head_foot_title'>
+        <image class='signin_head_foot_title_pic' src="../../images/signin_lf.png"></image>
+        <view class='signin_head_foot_month'>2018年10月15日</view>
+        <image class='signin_head_foot_title_pic' src="../../images/signin_lr.png"></image>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts'>日</view>
+        <view class='signin_head_foot_fonts'>一</view>
+        <view class='signin_head_foot_fonts'>二</view>
+        <view class='signin_head_foot_fonts'>三</view>
+        <view class='signin_head_foot_fonts'>四</view>
+        <view class='signin_head_foot_fonts'>五</view>
+        <view class='signin_head_foot_fonts'>六</view>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts signin'>1</view>
+        <view class='signin_head_foot_fonts'>2</view>
+        <view class='signin_head_foot_fonts'>3</view>
+        <view class='signin_head_foot_fonts'>4</view>
+        <view class='signin_head_foot_fonts'>5</view>
+        <view class='signin_head_foot_fonts'>6</view>
+        <view class='signin_head_foot_fonts'>7</view>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts'>8</view>
+        <view class='signin_head_foot_fonts'>9</view>
+        <view class='signin_head_foot_fonts'>10</view>
+        <view class='signin_head_foot_fonts'>11</view>
+        <view class='signin_head_foot_fonts'>12</view>
+        <view class='signin_head_foot_fonts'>13</view>
+        <view class='signin_head_foot_fonts'>14</view>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts'>15</view>
+        <view class='signin_head_foot_fonts'>16</view>
+        <view class='signin_head_foot_fonts'>17</view>
+        <view class='signin_head_foot_fonts'>18</view>
+        <view class='signin_head_foot_fonts'>19</view>
+        <view class='signin_head_foot_fonts'>20</view>
+        <view class='signin_head_foot_fonts'>21</view>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts'>22</view>
+        <view class='signin_head_foot_fonts'>23</view>
+        <view class='signin_head_foot_fonts'>24</view>
+        <view class='signin_head_foot_fonts'>25</view>
+        <view class='signin_head_foot_fonts'>26</view>
+        <view class='signin_head_foot_fonts'>27</view>
+        <view class='signin_head_foot_fonts'>28</view>
+      </view>
+      <view class='signin_head_foot'>
+        <view class='signin_head_foot_fonts'>29</view>
+        <view class='signin_head_foot_fonts'>30</view>
+        <view class='signin_head_foot_fonts'>31</view>
+      </view>
+    </view>
+  </view>
+</view>

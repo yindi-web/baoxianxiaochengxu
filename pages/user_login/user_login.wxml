@@ -1,0 +1,17 @@
+<!--pages/user_login/user_login.wxml-->
+<view class="container">
+  <!-- logo -->
+  <view class='user_login_logo'>
+    <image class='user_login_logo_pic' src="../../images/logo.png"></image>
+  </view>
+  <!-- 标题 -->
+  <view class='user_login_title'>
+    <view class='user_login_title_font1'>即将登录太平人寿小程序，请确定是本人操作</view>
+    <view class='user_login_title_font2'>
+      <view class='user_login_title_dot'></view>
+      <view>使用你的账号登录该应用</view>
+    </view>
+  </view>
+  <!-- 确定登录 -->
+  <button class='user_login_button'>确定登录</button>
+</view>

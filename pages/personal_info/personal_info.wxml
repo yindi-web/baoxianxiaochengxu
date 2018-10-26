@@ -1,0 +1,31 @@
+<!--pages/personal_info/personal_info.wxml-->
+<view class="container">
+  <!-- 输入个人信息 -->
+  <view class='personal_info_heads'>
+    <view class='personal_info_head'>
+      <view class='personal_info_head_left'>姓名</view>
+      <view class='personal_info_head_right'>
+        <input name="input" class='personal_info_right_input' placeholder="请输入姓名" />
+        <image class='personal_info_right_pic'></image>
+      </view>
+    </view>
+    <view class='personal_info_head'>
+      <view class='personal_info_head_left'>性别</view>
+      <view class='personal_info_head_right'>
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+          <view class='personal_info_right_font_s'>{{array[index]}}</view>
+        </picker>
+        <image class='personal_info_right_pic' src="../../images/enter.png"></image>
+      </view>
+    </view>
+    <view class='personal_info_head'>
+      <view class='personal_info_head_left'>出生日期</view>
+      <view class='personal_info_head_right'>
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class='personal_info_right_font_s'>{{date}}</view>
+        </picker>
+        <image class='personal_info_right_pic' src="../../images/enter.png"></image>
+      </view>
+    </view>
+  </view>
+</view>

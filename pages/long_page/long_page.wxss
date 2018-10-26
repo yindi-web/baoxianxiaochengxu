@@ -1,0 +1,17 @@
+/* pages/long_page/long_page.wxss */
+
+.long_page_head {
+  width: 750rpx;
+  height: 2826rpx;
+  background: url(http://app161.app.longcai.net/xcximg/single_page_bg.png) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.long_page_head_pic {
+  width: 212rpx;
+  height: 86rpx;
+  position: absolute;
+  bottom: 170rpx;
+  left: 37%;
+}

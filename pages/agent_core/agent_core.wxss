@@ -1,0 +1,51 @@
+/* pages/agent_core/agent_core.wxss */
+
+.agent_core_heads{
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.agent_core_head{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #c1c1c1;
+}
+
+.agent_core_head_left{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: 3%;
+}
+
+.health_topic_single_pic{
+  width: 44rpx;
+  height: 48rpx;
+  display: block;
+}
+
+.agent_core_head_left_font{
+  font-size: 30rpx;
+  color: #333;
+  margin-left: 30rpx;
+}
+
+.agent_core_head_right{
+  margin-right: 3%;
+}
+
+.health_topic_single_pic1{
+  width: 20rpx;
+  height: 36rpx;
+}
+
+.agent_core_head_right_font{
+  font-size: 30rpx;
+  color: #888;
+}

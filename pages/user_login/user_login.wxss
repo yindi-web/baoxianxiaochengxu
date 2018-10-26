@@ -1,0 +1,58 @@
+/* pages/user_login/user_login.wxss */
+
+.user_login_logo {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.user_login_logo_pic {
+  width: 400rpx;
+  height: 115rpx;
+  display: block;
+  margin: 120rpx auto;
+}
+
+.user_login_title {
+  width: 750rpx;
+}
+
+.user_login_title_font1 {
+  width: 94%;
+  margin: 0 auto;
+  border-top: 2rpx solid #c1c1c1;
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #333;
+}
+
+.user_login_title_font2 {
+  width: 94%;
+  margin: 30rpx auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-size: 26rpx;
+  color: #a0a0a0;
+}
+
+.user_login_title_dot {
+  width: 20rpx;
+  height: 20rpx;
+  background: #cdcdcd;
+  border-radius: 50rpx;
+  margin-right: 20rpx;
+}
+
+.user_login_button {
+  width: 94%;
+  text-align: center;
+  margin: 60rpx auto;
+  background: #11ac24;
+  border-radius: 10rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #fff;
+}

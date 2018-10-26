@@ -1,0 +1,123 @@
+<!--pages/health/health.wxml-->
+<view class="container">
+  <!-- 答题 -->
+  <view class='health_topics'>
+    <view class='health_topic_block'>
+      <view class='health_topic_title'>1、您的年龄</view>
+      <view class='health_topic'>
+        <view class='health_topic_single'>
+          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
+          <view class='health_topic_single_font hover'>0~20岁</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>20~40岁</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>40~60岁</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>其他</view>
+        </view>
+      </view>
+    </view>
+    <view class='health_topic_block'>
+      <view class='health_topic_title'>2、您平时喜爱的运动类型</view>
+      <view class='health_topic'>
+        <view class='health_topic_single'>
+          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
+          <view class='health_topic_single_font hover'>走路</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>慢跑</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>球类</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>其他</view>
+        </view>
+      </view>
+    </view>
+    <view class='health_topic_block'>
+      <view class='health_topic_title'>3、您平时运动的时间多为</view>
+      <view class='health_topic'>
+        <view class='health_topic_single'>
+          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
+          <view class='health_topic_single_font hover'>清晨</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>中午</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>晚饭后</view>
+        </view>
+        <view class='health_topic_single'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>其他</view>
+        </view>
+      </view>
+    </view>
+    <view class='health_topic_block'>
+      <view class='health_topic_title'>4、您的日均步数为</view>
+      <view class='health_topic'>
+        <view class='health_topic_single_01'>
+          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
+          <view class='health_topic_single_font hover'>3000~5000</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>5000~8000</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>8000~10000</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
+          <view class='health_topic_single_font'>其他</view>
+        </view>
+      </view>
+    </view>
+    <view class='health_topic_block'>
+      <view class='health_topic_title'>5、您感兴趣的健康资讯为（可多选）</view>
+      <view class='health_topic'>
+        <view class='health_topic_single_01'>
+          <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/checkbox-check.png"></image>
+          <view class='health_topic_single_font hover'>调理养生类</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
+          <image class='health_topic_single_pic' src="../../images/checkbox-check.png"></image>
+          <view class='health_topic_single_font hover'>康复保健类</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
+          <view class='health_topic_single_font'>饮食习惯类</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
+          <view class='health_topic_single_font'>运动健身</view>
+        </view>
+        <view class='health_topic_single_01'>
+          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
+          <view class='health_topic_single_font'>其他</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 确认提交 -->
+  <button class='health_button'>确认提交</button>
+</view>

@@ -1,0 +1,7 @@
+<!--pages/long_page/long_page.wxml-->
+<view class="container">
+  <!-- 长单页 -->
+  <view class='long_page_head'>
+    <image class='long_page_head_pic' src="../../images/long_page_button.png"></image>
+  </view>
+</view>

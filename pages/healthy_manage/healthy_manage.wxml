@@ -1,0 +1,7 @@
+<!--pages/healthy_manage/healthy_manage.wxml-->
+<view class="container">
+  <!-- web页 -->
+  <view class='index_heads'>
+    <image class='index_head_pic' src="../../images/healthy_web2.png"></image>
+  </view>
+</view>

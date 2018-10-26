@@ -1,0 +1,38 @@
+/* pages/customer_follow/customer_follow.wxss */
+
+page {
+  background: #f2f2f2;
+}
+
+.customer_follow_heads {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.customer_follow_head {
+  width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.customer_follow_head_block {
+  width: 360rpx;
+  background: #fff;
+  margin-bottom: 30rpx;
+  box-shadow: 4rpx 4rpx 4rpx 4rpx #e0dfdf;
+}
+
+.customer_follow_head_pic {
+  width: 320rpx;
+  height: 320rpx;
+  display: block;
+  margin: 20rpx;
+}
+
+.customer_follow_head_font {
+  font-size: 30rpx;
+  color: #333;
+  margin: 20rpx;
+}

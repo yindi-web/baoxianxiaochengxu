@@ -1,0 +1,37 @@
+/* pages/healthy_motion/healthy_motion.wxss */
+
+.healthy_motion_heads {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.healthy_motion_head {
+  width: 94%;
+  height: 200rpx;
+  margin: 60rpx auto;
+  background: url(http://app161.app.longcai.net/xcximg/motion_background.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.healthy_motion_head_left {
+  font-size: 40rpx;
+  color: #fff;
+  line-height: 200rpx;
+  margin-left: 3%;
+}
+
+.healthy_motion_head_right {
+  font-size: 50rpx;
+  color: #fff;
+  line-height: 200rpx;
+  margin-right: 3%;
+}
+
+.healthy_motion_head_small {
+  font-size: 30rpx;
+}

@@ -1,0 +1,7 @@
+<!--pages/healthy_life/healthy_life.wxml-->
+<view class="container">
+  <!-- web页 -->
+  <view class='index_heads'>
+    <image class='index_head_pic' src="../../images/healthy_web1.png"></image>
+  </view>
+</view>

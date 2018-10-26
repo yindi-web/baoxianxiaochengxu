@@ -1,0 +1,74 @@
+/* pages/health/health.wxss */
+
+.health_topics {
+  width: 750rpx;
+  border-top: 2rpx solid #c1c1c1;
+}
+
+.health_topic_block {
+  width: 100%;
+  border-bottom: 2rpx solid #c1c1c1;
+}
+
+.health_topic_title {
+  width: 94%;
+  margin: 30rpx auto;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.health_topic {
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.health_topic_single {
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 30rpx;
+}
+
+.health_topic_single_01 {
+  width: 33.33%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 30rpx;
+}
+
+.health_topic_single_pic {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.health_topic_single_font {
+  font-size: 26rpx;
+  color: #333;
+  margin-left: 20rpx;
+}
+
+.health_topic_single_01 .hover {
+  color: #ef6f28;
+}
+
+.health_topic_single .hover {
+  color: #ef6f28;
+}
+
+.health_button {
+  width: 94%;
+  margin: 50rpx auto;
+  text-align: center;
+  background: #ef6f28;
+  border-radius: 10rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  color: #fff;
+}

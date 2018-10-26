@@ -1,0 +1,41 @@
+/* pages/peace_product/peace_product.wxss */
+
+.peace_product_heads {
+  width: 750rpx;
+  height: 200rpx;
+  background: url(http://app161.app.longcai.net/xcximg/peace_product1.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 40rpx;
+}
+
+.peace_product_heads:nth-child(2) {
+  background: url(http://app161.app.longcai.net/xcximg/peace_product2.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.peace_product_heads:nth-child(3) {
+  background: url(http://app161.app.longcai.net/xcximg/peace_product3.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.peace_product_head {
+  width: 90%;
+  margin-left: 10%;
+}
+
+.peace_product_head_font1 {
+  font-size: 32rpx;
+  color: #333;
+  margin-top: 30rpx;
+}
+
+.peace_product_head_font2 {
+  font-size: 26rpx;
+  color: #888;
+  margin: 20rpx 0;
+}
+
+.peace_product_head_font3 {
+  font-size: 22rpx;
+  color: #888;
+}

@@ -1,0 +1,15 @@
+<!--pages/agent/agent.wxml-->
+<view class="container">
+  <!-- 头像和信息 -->
+  <view class='agent_heads'>
+    <image class='head_portrait' src="../../images/head_portrait.png"></image>
+    <view class='agent_head'>
+      <view class='agent_head_left'>姓名 : </view>
+      <input name="input" class='agent_head_input' placeholder="请输入姓名" />
+    </view>
+    <view class='agent_head'>
+      <view class='agent_head_left'>电话 : </view>
+      <input name="input" class='agent_head_input' placeholder="请输入电话" />
+    </view>
+  </view>
+</view>

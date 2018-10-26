@@ -1,0 +1,14 @@
+<!--pages/validate_agent/validate_agent.wxml-->
+<view class="container">
+  <!-- 输入信息 -->
+  <view class='validate_agent_heads'>
+    <view class='validate_agent_head'>
+      <input name="input" class='validate_agent_head_input' placeholder="请输入工号" />
+    </view>
+    <view class='validate_agent_head'>
+      <input name="input" class='validate_agent_head_input' placeholder="请输入密码" />
+    </view>
+  </view>
+  <!-- 确定 -->
+  <button class='validate_agent_button'>确定</button>
+</view>
