@@ -35,5 +35,14 @@ App({
   },
   globalData: {
     userInfo: null
+  },
+  Coca: require("utils/Coca.js"),
+  data: {
+    domain: "https://www.aimofeier.cn/index.php/interfaces/",
+    imageDomain: "https://www.aimofeier.cn",
+    uid: '',
+    openId: '',
+    Coca: require("utils/Coca.js"),
+    amapKey: '0f95435e87f3d9fd8db3cb44f479da50'
   }
 })
