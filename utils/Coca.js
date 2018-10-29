@@ -1,3 +1,9 @@
+var CheckUtil = require("CheckUtil.js")
+var DateUtil = require("DateUtil.js")
+var NetWorkUtil = require("NetWorkUtil.js")
+var StringUtil = require("StringUtil.js")
+var UIUtil = require("UIUtil.js")
+var ViewUtil = require("ViewUtil.js")
 var md5 = require("md5.js") 
 var signKey = "2915c04256e2c72998158a5de09e16b5"
 
