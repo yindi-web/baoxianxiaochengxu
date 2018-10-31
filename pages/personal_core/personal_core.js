@@ -5,14 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    birth:'',
+    sex:'',
+    username:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.requestUrl()
   },
 
   /**
@@ -62,5 +64,35 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 个人信息
+   */
+  gerenxinxiTouch: function(){
+    console.log(this.data.birth,this.data.sex)
+    wx.navigateTo({
+      url: '../personal_info/personal_info?birth:'+this.data.birth+'&sex='+this.data.sex+'&username='+this.data.username
+    })
+  },
+
+  /**
+   * 个人中心接口
+   */
+  requestUrl: function (phone, yanzhengma) {
+    var that = this
+    var data = {
+      user_id: wx.getStorageSync('uid')
+    }
+    getApp().Coca.http_get("index/user", data, function (e) {
+      if (e.code == 200) {
+        that.setData({
+          picurl:e.data.picurl,
+          username:e.data.username,
+          birth:e.data.birth,
+          sex:e.data.sex
+        })
+      }
+    })
   }
 })

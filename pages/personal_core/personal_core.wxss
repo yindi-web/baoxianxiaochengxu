@@ -16,6 +16,7 @@
   position: absolute;
   top: 50rpx;
   left: 312rpx;
+  border-radius: 50rpx;
 }
 
 .personal_core_badge {

@@ -5,7 +5,7 @@
     <view class='personal_info_head'>
       <view class='personal_info_head_left'>姓名</view>
       <view class='personal_info_head_right'>
-        <input name="input" class='personal_info_right_input' placeholder="请输入姓名" />
+        <input name="input" class='personal_info_right_input' value='{{username}}' placeholder="请输入姓名" />
         <image class='personal_info_right_pic'></image>
       </view>
     </view>
@@ -13,7 +13,7 @@
       <view class='personal_info_head_left'>性别</view>
       <view class='personal_info_head_right'>
         <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
-          <view class='personal_info_right_font_s'>{{array[index]}}</view>
+          <view class='personal_info_right_font_s'>{{array[index-1]}}</view>
         </picker>
         <image class='personal_info_right_pic' src="../../images/enter.png"></image>
       </view>
@@ -21,7 +21,7 @@
     <view class='personal_info_head'>
       <view class='personal_info_head_left'>出生日期</view>
       <view class='personal_info_head_right'>
-        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+        <picker mode="date" value="{{date}}" start="2018-12-31" end="1900-01-01" bindchange="bindDateChange">
           <view class='personal_info_right_font_s'>{{date}}</view>
         </picker>
         <image class='personal_info_right_pic' src="../../images/enter.png"></image>

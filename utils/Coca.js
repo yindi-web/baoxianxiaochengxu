@@ -84,12 +84,13 @@ function http_get(url, data, callBack,hideHUD = true) {
   var that = this
   wx.request({
     url: getApp().data.domain + url,
-    method: 'GET',
+    method: 'POST',
     data: data,
     header: {
       "Content-Type": "json"
     },
     success: function (res) {
+      console.log(res)
       wx.hideLoading()
       console.log(res.data)
       callBack(res.data)
@@ -203,15 +204,15 @@ function alertMes(title,mes){
   })
 }
 
-// function validate_phone(phone){
-//   var re = /^1\d{10}$/;
-//   return re.test(phone)
-// }
-function validate_phone(phone) {
-  // var re = /^\d{9}$/;
-  // return re.test(phone)
-  return true
+function validate_phone(phone){
+  var re = /^1\d{10}$/;
+  return re.test(phone)
 }
+// function validate_phone(phone) {
+//   // var re = /^\d{9}$/;
+//   // return re.test(phone)
+//   return true
+// }
 function validate_number(num) {
   var re = /^[0-9]{1}/;
   return re.test(num)

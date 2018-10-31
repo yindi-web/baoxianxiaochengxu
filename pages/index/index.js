@@ -15,40 +15,60 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function () {
-    if (app.globalData.userInfo) {
-      this.setData({
-        userInfo: app.globalData.userInfo,
-        hasUserInfo: true
-      })
-    } else if (this.data.canIUse){
-      // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
-      // 所以此处加入 callback 以防止这种情况
-      app.userInfoReadyCallback = res => {
-        this.setData({
-          userInfo: res.userInfo,
-          hasUserInfo: true
-        })
-      }
-    } else {
-      // 在没有 open-type=getUserInfo 版本的兼容处理
-      wx.getUserInfo({
-        success: res => {
-          app.globalData.userInfo = res.userInfo
-          this.setData({
-            userInfo: res.userInfo,
-            hasUserInfo: true
+  onLoad: function() {
+    // 登录
+    wx.login({
+      success: res => {
+        // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        if (res.code) {
+          wx.request({
+            url: 'https://api.weixin.qq.com/sns/jscode2session',
+            data: {
+              // 小程序唯一标示
+              appid: getApp().data.appid,
+              // 小程序的 app secret
+              secret: getApp().data.secret,
+              grant_type: 'authorization_code',
+              js_code: res.code
+            },
+            method: 'GET',
+            header: {
+              'content-type': 'application/json'
+            },
+            success: function(openIdRes) {
+              // 判断openId是否为空
+              if (openIdRes.data.openid != null & openIdRes.data.openid != undefined) {
+                wx.getUserInfo({
+                  success: function(res) {
+                    wx.request({
+                      url: getApp().data.domain + 'login/get_openid',
+                      data: {
+                        openid: openIdRes.data.openid,
+                        picurl: res.userInfo.avatarUrl,
+                        username: res.userInfo.nickName
+                      },
+                      method: 'POST',
+                      header: {
+                        'content-type': 'application/json'
+                      },
+                      success: function(res) {
+                        if (res.data.code == 400) {
+                          wx.navigateTo({
+                            url: '../binding/binding?openid=' + openIdRes.data.openid,
+                          })
+                        } else {
+                          wx.setStorageSync('openid', res.data.openid); //存储openid
+                          wx.setStorageSync('uid', res.data.data);
+                        }
+                      }
+                    })
+                  }
+                })
+              }
+            }
           })
         }
-      })
-    }
-  },
-  getUserInfo: function(e) {
-    console.log(e)
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
+      }
     })
   }
 })
