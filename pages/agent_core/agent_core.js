@@ -61,7 +61,10 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    return {
+      title: '自定义分享标题',
+      path: '../index/index?invitation_code='
+    }
   },
 
   /**
@@ -98,12 +101,5 @@ Page({
     wx.navigateTo({
       url: '../test_see/test_see?id=' + this.data.id,
     })
-  },
-
-  /**
-   * 分享
-   */
-  shareTouch: function(){
-
   }
 })

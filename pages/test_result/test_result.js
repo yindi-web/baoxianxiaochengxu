@@ -77,6 +77,47 @@ Page({
     getApp().Coca.http_get("index/testing", data, function (e) {
       if (e.code == 200) {
         console.log(e)
+        that.setData({
+          username: e.user.username,
+          age: e.user.birth,
+          sex: e.user.sex,
+          phone: e.user.mobile
+        })
+        for(var i = 0; i < e.data.length; i++){
+          var a = e.data[i];
+          switch(i){
+            case 0:
+              that.setData({
+                oneTitle: a.problem,
+                oneDA: a.answer[0].title
+              })
+              break;
+            case 1:
+              that.setData({
+                towTitle: a.problem,
+                towDA: a.answer[0].title
+              })
+              break;
+            case 2:
+              that.setData({
+                thereTitle: a.problem,
+                thereDA: a.answer[0].title
+              })
+              break;
+            case 3:
+              that.setData({
+                fourTitle: a.problem,
+                fourDA: a.answer[0].title
+              })
+              break;
+            case 4:
+              that.setData({
+                fiveTitle: a.problem,
+                fiveDA: a.answer[0].title
+              })
+              break;
+          }
+        }
       } else {
         getApp().Coca.toast(e.message)
       }

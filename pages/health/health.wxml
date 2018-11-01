@@ -119,5 +119,5 @@
     </view>
   </view>
   <!-- 确认提交 -->
-  <button class='health_button'>确认提交</button>
+  <button class='health_button' bindtap='tijiaoTouch'>确认提交</button>
 </view>

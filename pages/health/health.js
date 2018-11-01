@@ -121,8 +121,7 @@ Page({
   oneTouch: function(e) {
     switch (e.currentTarget.dataset.index) {
       case '1':
-        this.data.oneData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id};
-        console.log(this.data.oneData)
+        this.data.oneData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picOneOne: '../../images/radio-check.png',
           ziOneOne: 'health_topic_single_font hover',
@@ -135,7 +134,7 @@ Page({
         })
         break;
       case '2':
-        this.data.oneData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.oneData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picOneOne: '../../images/radio-uncheck.png',
           ziOneOne: 'health_topic_single_font',
@@ -148,7 +147,7 @@ Page({
         })
         break;
       case '3':
-        this.data.oneData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.oneData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picOneOne: '../../images/radio-uncheck.png',
           ziOneOne: 'health_topic_single_font',
@@ -161,7 +160,7 @@ Page({
         })
         break;
       case '4':
-        this.data.oneData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.oneData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picOneOne: '../../images/radio-uncheck.png',
           ziOneOne: 'health_topic_single_font',
@@ -182,7 +181,7 @@ Page({
   towTouch: function(e) {
     switch (e.currentTarget.dataset.index) {
       case '1':
-        this.data.towData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.towData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picTowOne: '../../images/radio-check.png',
           ziTowOne: 'health_topic_single_font hover',
@@ -196,7 +195,7 @@ Page({
         })
         break;
       case '2':
-        this.data.towData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.towData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picTowOne: '../../images/radio-uncheck.png',
           ziTowOne: 'health_topic_single_font',
@@ -210,7 +209,7 @@ Page({
         })
         break;
       case '3':
-        this.data.towData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.towData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picTowOne: '../../images/radio-uncheck.png',
           ziTowOne: 'health_topic_single_font',
@@ -224,7 +223,7 @@ Page({
         })
         break;
       case '4':
-        this.data.towData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.towData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picTowOne: '../../images/radio-uncheck.png',
           ziTowOne: 'health_topic_single_font',
@@ -246,7 +245,7 @@ Page({
   thereTouch: function(e) {
     switch (e.currentTarget.dataset.index) {
       case '1':
-        this.data.thereData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.thereData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picThereOne: '../../images/radio-check.png',
           ziThereOne: 'health_topic_single_font hover',
@@ -259,7 +258,7 @@ Page({
         })
         break;
       case '2':
-        this.data.thereData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.thereData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picThereOne: '../../images/radio-uncheck.png',
           ziThereOne: 'health_topic_single_font',
@@ -272,7 +271,7 @@ Page({
         })
         break;
       case '3':
-        this.data.thereData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.thereData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picThereOne: '../../images/radio-uncheck.png',
           ziThereOne: 'health_topic_single_font',
@@ -285,7 +284,7 @@ Page({
         })
         break;
       case '4':
-        this.data.thereData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.thereData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picThereOne: '../../images/radio-uncheck.png',
           ziThereOne: 'health_topic_single_font',
@@ -306,7 +305,7 @@ Page({
   fourTouch: function(e) {
     switch (e.currentTarget.dataset.index) {
       case '1':
-        this.data.fourData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.fourData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picFourOne: '../../images/radio-check.png',
           ziFourOne: 'health_topic_single_font hover',
@@ -319,7 +318,7 @@ Page({
         })
         break;
       case '2':
-        this.data.fourData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.fourData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picFourOne: '../../images/radio-uncheck.png',
           ziFourOne: 'health_topic_single_font',
@@ -332,7 +331,7 @@ Page({
         })
         break;
       case '3':
-        this.data.fourData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.fourData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picFourOne: '../../images/radio-uncheck.png',
           ziFourOne: 'health_topic_single_font',
@@ -345,7 +344,7 @@ Page({
         })
         break;
       case '4':
-        this.data.fourData = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id };
+        this.data.fourData = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, user_id: wx.getStorageSync('uid') };
         this.setData({
           picFourOne: '../../images/radio-uncheck.png',
           ziFourOne: 'health_topic_single_font',
@@ -373,12 +372,11 @@ Page({
       }
     }
     if (a) {
-      var d = { titleId: e.currentTarget.dataset.titleid, id: e.currentTarget.dataset.id, index: e.currentTarget.dataset.index};
+      var d = { problem_id: e.currentTarget.dataset.titleid, answer_id: e.currentTarget.dataset.id, index: e.currentTarget.dataset.index, user_id: wx.getStorageSync('uid') };
       this.data.fiveData.push(d);
     } else {
       this.data.fiveData.splice(s, 1)
     }
-    console.log(this.data.fiveData);
     switch (e.currentTarget.dataset.index) {
       case '1':
         if (a) {
@@ -469,7 +467,7 @@ Page({
                 var b = a.answer[j];
                 switch(j){
                   case 0:
-                    that.data.oneData = { titleId: a.id, id: b.id };
+                    that.data.oneData = { problem_id: a.id, answer_id: b.id, user_id: wx.getStorageSync('uid') };
                     that.setData({
                       oneOne: b.title,
                       oneOneId: b.id
@@ -505,7 +503,7 @@ Page({
                 var b = a.answer[j];
                 switch (j) {
                   case 0:
-                    that.data.towData = { titleId: a.id, id: b.id };
+                    that.data.towData = { problem_id: a.id, answer_id: b.id, user_id: wx.getStorageSync('uid') };
                     that.setData({
                       towOne: b.title,
                       towOneId: b.id
@@ -541,7 +539,7 @@ Page({
                 var b = a.answer[j];
                 switch (j) {
                   case 0:
-                    that.data.thereData = { titleId: a.id, id: b.id };
+                    that.data.thereData = { problem_id: a.id, answer_id: b.id, user_id: wx.getStorageSync('uid') };
                     that.setData({
                       thereOne: b.title,
                       thereOneId: b.id
@@ -577,7 +575,7 @@ Page({
                 var b = a.answer[j];
                 switch (j) {
                   case 0:
-                    that.data.fourData = { titleId: a.id, id: b.id };
+                    that.data.fourData = { problem_id: a.id, answer_id: b.id, user_id: wx.getStorageSync('uid') };
                     that.setData({
                       fourOne: b.title,
                       fourOneId: b.id
@@ -651,5 +649,46 @@ Page({
         getApp().Coca.toast(e.message)
       }
     })
+  },
+  /**
+   * 提交答案
+   */
+  tijiaoTouch: function(){
+    if (this.data.oneData != '' && this.data.towData != '' && this.data.thereData != '' && this.data.fourData != '' && this.data.fiveData.length != 0){
+      var that = this;
+      var arr = [];
+      arr.push(this.data.oneData);
+      arr.push(this.data.towData);
+      arr.push(this.data.thereData);
+      arr.push(this.data.fourData);
+      if (this.data.fiveData.length != 0) {
+        var fiveData = '';
+        var problem_id = this.data.fiveData[0].problem_id;
+        var answer_id = '';
+        for (var i = 0; i < this.data.fiveData.length; i++) {
+          if (i == 0) {
+            answer_id += this.data.fiveData[i].answer_id
+          } else {
+            answer_id += ',' + this.data.fiveData[i].answer_id
+          }
+        }
+        fiveData = { problem_id: problem_id, answer_id: answer_id, user_id: wx.getStorageSync('uid') }
+        arr.push(fiveData);
+      }
+      var str = JSON.stringify(arr);
+      var data = {
+        testing: str
+      }
+      getApp().Coca.http_get("index/add_user_testing", data, function (e) {
+        if (e.code == 200) {
+          wx.navigateBack({
+          })
+        } else {
+          getApp().Coca.toast(e.message)
+        }
+      })
+    }else{
+      getApp().Coca.toast('请答题后提交');
+    }
   }
 })

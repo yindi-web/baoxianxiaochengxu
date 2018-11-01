@@ -3,7 +3,7 @@
   <!-- head -->
   <view class='personal_core_heads'>
     <image class='personal_core_head_pic' src="{{picurl}}"></image>
-    <image class='personal_core_badge' src="../../images/personal_badge.png"></image>
+    <image class='personal_core_badge' src="{{huizhangImage}}"></image>
     <view class='personal_core_head_font'>1</view>
     <view class='personal_core_head'>
       <view class='personal_core_head_font2'>{{username}}</view>

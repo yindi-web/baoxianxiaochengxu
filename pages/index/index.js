@@ -7,7 +7,8 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    invitation_code:''
   },
   //事件处理函数
   bindViewTap: function() {
@@ -15,7 +16,9 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function() {
+  onLoad: function(options) {
+    var that = this;
+    this.data.invitation_code = options.invitation_code;
     // 登录
     wx.login({
       success: res => {
@@ -45,7 +48,8 @@ Page({
                       data: {
                         openid: openIdRes.data.openid,
                         picurl: res.userInfo.avatarUrl,
-                        username: res.userInfo.nickName
+                        username: res.userInfo.nickName,
+                        invitation_code: that.data.invitation_code
                       },
                       method: 'POST',
                       header: {
@@ -68,6 +72,23 @@ Page({
             }
           })
         }
+      }
+    })
+  },
+
+  /**
+   * 签到
+   */
+  qiandaoTouch:function(){
+    var that = this
+    var data = {
+      user_id: wx.getStorageSync('uid')
+    }
+    getApp().Coca.http_get("index/qiandao", data, function (e) {
+      if (e.code == 200) {
+        getApp().Coca.toast(e.message)
+      } else {
+        getApp().Coca.toast(e.message)
       }
     })
   }

@@ -2,13 +2,13 @@
 <view class="container">
   <!-- web页 -->
   <view class='index_heads'>
-    <image class='index_head_pic' src="../../images/product_details1.png"></image>
+    <image class='index_head_pic' src="{{myImg}}"></image>
   </view>
   <!-- 点赞分享 -->
   <view class='product_details_foots'>
-    <view class='product_details_foot'>
-      <image class='product_details_foot_pic' src="../../images/uncheck.png"></image>
-      <view class='product_details_foot_fonts'>点赞</view>
+    <view class='product_details_foot' bindtap='dianzanTouch'>
+      <image class='product_details_foot_pic' src="{{dianzanImg}}"></image>
+      <view class='{{dianzanZi}}'>点赞</view>
     </view>
     <view class='product_details_foot'>
       <image class='product_details_foot_pic' src="../../images/share.png"></image>

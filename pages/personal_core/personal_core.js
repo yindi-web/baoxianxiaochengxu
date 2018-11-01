@@ -120,7 +120,8 @@ Page({
           username: e.data.username,
           birth: e.data.birth,
           sex: e.data.sex,
-          agent_id: e.data.agent_id
+          agent_id: e.data.agent_id,
+          huizhangImage: e.data.huizhangpicurl
         })
       }
     })

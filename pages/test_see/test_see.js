@@ -70,6 +70,7 @@ Page({
    * 点击客户
    */
   yonghuTouch:function(e){
+    console.log(e.currentTarget.dataset.id)
     wx.navigateTo({
       url: '../test_result/test_result?id=' + e.currentTarget.dataset.id,
     })

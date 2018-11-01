@@ -12,7 +12,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.requestUrl()
   },
 
   /**
@@ -62,5 +62,24 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 请求接口
+   */
+  requestUrl: function () {
+    var that = this
+    var data = {
+      id: '5'
+    }
+    getApp().Coca.http_get("index/exhibition", data, function (e) {
+      if (e.code == 200) {
+        that.setData({
+          myImage: getApp().data.imageDomain + e.data[0].picurl
+        })
+      } else {
+        getApp().Coca.toast(e.message)
+      }
+    })
   }
 })

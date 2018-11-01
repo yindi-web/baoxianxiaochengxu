@@ -2,6 +2,6 @@
 <view class="container">
   <!-- web页 -->
   <view class='index_heads'>
-    <image class='index_head_pic' src="../../images/healthy_web2.png"></image>
+    <image class='index_head_pic' src="{{myImage}}"></image>
   </view>
 </view>

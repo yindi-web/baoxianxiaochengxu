@@ -3,7 +3,7 @@
   <!-- 顶部签到 -->
   <view class='index_heads'>
     <view class='index_head'>
-      <navigator url='/pages/signin/signin' open-type='navigate' hover-class="changestyle">
+      <navigator bindtap='qiandaoTouch' open-type='navigate' hover-class="changestyle">
         <image class='index_head_pic' src="../../images/signin.png"></image>
         <view class='index_head_font'>签到</view>
       </navigator>
