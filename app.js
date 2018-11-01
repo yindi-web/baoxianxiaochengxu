@@ -13,7 +13,7 @@ App({
   Coca: require("utils/Coca.js"),
   data: {
     domain: "http://app161.app.longcai.net/interfaces/",
-    imageDomain: "http://app161.app.longcai.net",
+    imageDomain: "http://app161.app.longcai.net/",
     uid: '',
     openId: '',
     Coca: require("utils/Coca.js"),

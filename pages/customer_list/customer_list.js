@@ -5,14 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    id:'',
+    username:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.data.id = options.id
+    this.requestUrl()
   },
 
   /**
@@ -62,5 +64,33 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 输入客户
+   */
+  kehuInput: function(e){
+    this.data.username = e.detail.value;
+    this.requestUrl();
+  },
+
+  /**
+   * 我的客户
+   */
+  requestUrl: function () {
+    var that = this
+    var data = {
+      agent_id:this.data.id,
+      username:this.data.username
+    }
+    getApp().Coca.http_get("index/agent_user", data, function (e) {
+      if (e.code == 200) {
+        that.setData({
+          list:e.data
+        })
+      } else {
+        getApp().Coca.toast(e.message)
+      }
+    })
   }
 })

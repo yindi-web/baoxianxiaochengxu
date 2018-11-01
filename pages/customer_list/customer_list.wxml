@@ -4,7 +4,7 @@
   <view class='customer_list_searchs'>
     <view class='customer_list_search'>
       <image class='customer_list_search_pic' src="../../images/search.png"></image>
-      <input name="input" class='customer_list_search_input' placeholder="请输入客户姓名" />
+      <input name="input" class='customer_list_search_input' placeholder="请输入客户姓名" bindinput='kehuInput'/>
     </view>
   </view>
   <!-- 客户信息 -->
@@ -15,41 +15,13 @@
       <view class='customer_list_block'>性别</view>
       <view class='customer_list_block'>电话</view>
     </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
-    </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
-    </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
-    </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
-    </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
-    </view>
-    <view class='customer_list'>
-      <view class='customer_list_block'>小M</view>
-      <view class='customer_list_block'>30</view>
-      <view class='customer_list_block'>男</view>
-      <view class='customer_list_block'>13000000000</view>
+    <view wx:for='{{list}}' wx:key="this" wx:for-item="item">
+      <view class='customer_list'>
+        <view class='customer_list_block'>{{item.username}}</view>
+        <view class='customer_list_block'>{{item.birth}}</view>
+        <view class='customer_list_block'>{{item.sex}}</view>
+        <view class='customer_list_block'>{{item.mobile}}</view>
+      </view>
     </view>
   </view>
 </view>

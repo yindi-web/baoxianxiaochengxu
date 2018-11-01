@@ -2,17 +2,11 @@
 <view class="container">
   <view class='customer_follow_heads'>
     <view class='customer_follow_head'>
-      <view class='customer_follow_head_block'>
-        <image class='customer_follow_head_pic' src="../../images/customer_follow1.png"></image>
-        <view class='customer_follow_head_font'>福禄康瑞</view>
-      </view>
-      <view class='customer_follow_head_block'>
-        <image class='customer_follow_head_pic' src="../../images/customer_follow1.png"></image>
-        <view class='customer_follow_head_font'>状元树</view>
-      </view>
-      <view class='customer_follow_head_block'>
-        <image class='customer_follow_head_pic' src="../../images/customer_follow1.png"></image>
-        <view class='customer_follow_head_font'>福寿连连</view>
+      <view wx:for='{{list}}' wx:key="this" wx:for-item="item">
+        <view class='customer_follow_head_block' data-id='{{item.id}}' bindtap='chanpinTouch'>
+          <image class='customer_follow_head_pic' src="{{urlHader+item.picurl}}"></image>
+          <view class='customer_follow_head_font'>{{item.title}}</view>
+        </view>
       </view>
     </view>
   </view>

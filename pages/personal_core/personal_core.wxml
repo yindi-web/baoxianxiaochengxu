@@ -19,21 +19,21 @@
       </view>
       <image class='personal_core_center_right' src="../../images/enter.png"></image>
     </view>
-    <view class='personal_core_center'>
+    <view class='personal_core_center' bindtap='mobleTouch'>
       <view class='personal_core_center_left'>
         <image class='personal_core_center_pic' src="../../images/personal_core2.png"></image>
         <view class='personal_core_center_font'>绑定手机号</view>
       </view>
       <image class='personal_core_center_right' src="../../images/enter.png"></image>
     </view>
-    <view class='personal_core_center'>
+    <view class='personal_core_center' bindtap='agentTouch'>
       <view class='personal_core_center_left'>
         <image class='personal_core_center_pic' src="../../images/personal_core3.png"></image>
         <view class='personal_core_center_font'>我的代理人</view>
       </view>
       <image class='personal_core_center_right' src="../../images/enter.png"></image>
     </view>
-    <view class='personal_core_center'>
+    <view class='personal_core_center' bindtap='validate_agentTouch'>
       <view class='personal_core_center_left'>
         <image class='personal_core_center_pic' src="../../images/personal_core4.png"></image>
         <view class='personal_core_center_font'>代理人模块</view>

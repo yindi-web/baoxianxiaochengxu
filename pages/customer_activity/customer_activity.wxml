@@ -3,9 +3,9 @@
   <!-- 日-周-月 -->
   <view class='customer_activity_dates'>
     <view class='customer_activity_date'>
-      <view class='customer_activity_date_block hover'>日</view>
-      <view class='customer_activity_date_block'>周</view>
-      <view class='customer_activity_date_block'>月</view>
+      <view class='{{ri}}' bindtap='liebiaoTouch' data-index='1'>日</view>
+      <view class='{{zhou}}' bindtap='liebiaoTouch' data-index='2'>周</view>
+      <view class='{{yue}}' bindtap='liebiaoTouch' data-index='3'>月</view>
     </view>
   </view>
   <!-- 客户信息 -->

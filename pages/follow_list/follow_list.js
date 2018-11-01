@@ -5,14 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    agent_id:'',
+    product_id:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.data.agent_id = options.agent_id;
+    this.data.product_id = options.product_id;
+    this.requestUrl()
   },
 
   /**
@@ -62,5 +65,26 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 客户关注
+   */
+  requestUrl: function () {
+    var that = this
+    var data = {
+      agent_id: this.data.agent_id,
+      product_id: this.data.product_id
+    }
+    console.log(data)
+    getApp().Coca.http_get("index/user_collection_list", data, function (e) {
+      if (e.code == 200) {
+        that.setData({
+          list: e.data
+        })
+      } else {
+        getApp().Coca.toast(e.message)
+      }
+    })
   }
 })

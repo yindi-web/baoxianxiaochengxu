@@ -5,7 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-
   },
 
   /**
@@ -62,5 +61,32 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 验证代理人 
+   */
+  quedingTouch: function(e){
+    var that = this
+    if (e.detail.value.username == ''){
+      getApp().Coca.toast('工号不可以为空');
+    } else if (e.detail.value.password == ''){
+      getApp().Coca.toast('密码不可以为空');
+    }else{
+      var data = {
+        work_number: e.detail.value.username,
+        password: e.detail.value.password
+      }
+      console.log(data)
+      getApp().Coca.http_get("index/verification_agent", data, function (e) {
+        if (e.code == 200) {
+          wx.navigateTo({
+            url: '../agent_core/agent_core?id='+e.data.id,
+          })
+        }else{
+          getApp().Coca.toast(e.message)
+        }
+      })
+    }
   }
 })

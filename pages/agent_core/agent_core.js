@@ -5,14 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    id:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    this.data.id = options.id
   },
 
   /**
@@ -61,6 +61,49 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+
+  },
+
+  /**
+   * 我的客户
+   */
+  customer_listTouch: function(){
+    wx.navigateTo({
+      url: '../customer_list/customer_list?id='+this.data.id,
+    })
+  },
+
+  /**
+   * 健康运动
+   */
+  customer_activityTouch: function(){
+    wx.navigateTo({
+      url: '../customer_activity/customer_activity?id=' + this.data.id,
+    })
+  },
+
+  /**
+   * 产品关注
+   */
+  customer_followTouch: function(){
+    wx.navigateTo({
+      url: '../customer_follow/customer_follow?id=' + this.data.id,
+    })
+  },
+
+  /**
+   * 客户测验
+   */
+  test_seeTouch: function() {
+    wx.navigateTo({
+      url: '../test_see/test_see?id=' + this.data.id,
+    })
+  },
+
+  /**
+   * 分享
+   */
+  shareTouch: function(){
 
   }
 })

@@ -1,14 +1,16 @@
 <!--pages/validate_agent/validate_agent.wxml-->
 <view class="container">
-  <!-- 输入信息 -->
-  <view class='validate_agent_heads'>
-    <view class='validate_agent_head'>
-      <input name="input" class='validate_agent_head_input' placeholder="请输入工号" />
+  <form bindsubmit="quedingTouch">
+    <!-- 输入信息 -->
+    <view class='validate_agent_heads'>
+      <view class='validate_agent_head'>
+        <input name="username" class='validate_agent_head_input' placeholder="请输入工号" bindinput='usernameInput' value='11111111' />
+      </view>
+      <view class='validate_agent_head'>
+        <input name="password" password='true' class='validate_agent_head_input' placeholder="请输入密码" bindinput='passwordInput' value='123456'/>
+      </view>
     </view>
-    <view class='validate_agent_head'>
-      <input name="input" class='validate_agent_head_input' placeholder="请输入密码" />
-    </view>
-  </view>
-  <!-- 确定 -->
-  <button class='validate_agent_button'>确定</button>
+    <!-- 确定 -->
+    <button formType="submit" class='validate_agent_button'>确定</button>
+  </form>
 </view>

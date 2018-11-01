@@ -1,7 +1,7 @@
 <!--pages/agent_core/agent_core.wxml-->
 <view class="container">
   <view class='agent_core_heads'>
-    <view class='agent_core_head'>
+    <view class='agent_core_head' bindtap='customer_listTouch'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core1.png"></image>
         <view class='agent_core_head_left_font'>我的客户</view>
@@ -10,7 +10,7 @@
         <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
       </view>
     </view>
-    <view class='agent_core_head'>
+    <view class='agent_core_head' bindtap='customer_activityTouch'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core2.png"></image>
         <view class='agent_core_head_left_font'>健康运动</view>
@@ -19,7 +19,7 @@
         <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
       </view>
     </view>
-    <view class='agent_core_head'>
+    <view class='agent_core_head' bindtap='customer_followTouch'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core3.png"></image>
         <view class='agent_core_head_left_font'>产品关注</view>
@@ -28,7 +28,7 @@
         <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
       </view>
     </view>
-    <view class='agent_core_head'>
+    <view class='agent_core_head' bindtap='test_seeTouch'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core4.png"></image>
         <view class='agent_core_head_left_font'>客户测验</view>
@@ -37,7 +37,7 @@
         <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
       </view>
     </view>
-    <view class='agent_core_head'>
+    <view class='agent_core_head' bindtap='shareTouch'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core5.png"></image>
         <view class='agent_core_head_left_font'>分享</view>

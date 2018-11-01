@@ -2,14 +2,14 @@
 <view class="container">
   <!-- 头像和信息 -->
   <view class='agent_heads'>
-    <image class='head_portrait' src="../../images/head_portrait.png"></image>
+    <image class='head_portrait' src="{{picurl}}"></image>
     <view class='agent_head'>
       <view class='agent_head_left'>姓名 : </view>
-      <input name="input" class='agent_head_input' placeholder="请输入姓名" />
+      <view class='agent_head_input'>{{username}}</view>
     </view>
     <view class='agent_head'>
       <view class='agent_head_left'>电话 : </view>
-      <input name="input" class='agent_head_input' placeholder="请输入电话" />
+      <view class='agent_head_input'>{{moble}}</view>
     </view>
   </view>
 </view>

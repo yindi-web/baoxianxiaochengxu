@@ -8,7 +8,8 @@ Page({
     openid: '',
     mobel: '',
     yanzhengmaBtn:'获取验证码',
-    yanzhengmaTouch:'yanzhengmaTouch'
+    yanzhengmaTouch:'yanzhengmaTouch',
+    mtype: 0
   },
 
   /**
@@ -16,6 +17,7 @@ Page({
    */
   onLoad: function(options) {
     this.data.openid = options.openid
+    this.data.mtype = options.type;
   },
 
   /**
@@ -73,14 +75,15 @@ Page({
     var phone = e.detail.value.phone
     var yanzhengma = e.detail.value.yanzhengma
     if (getApp().Coca.validate_phone(phone) == false) {
-      console.log('1')
       getApp().Coca.toast("手机号不正确")
     } else if (yanzhengma == '') {
-      console.log('2')
       getApp().Coca.toast("验证码不可以为空")
     } else {
-      console.log('3')
-      this.requestUrl(phone, yanzhengma)
+      if (this.data.mtype == 1){
+        this.requestUrl2(phone, yanzhengma);
+      }else{
+        this.requestUrl(phone, yanzhengma);
+      }
     }
   },
   /**
@@ -95,7 +98,6 @@ Page({
   yanzhengmaTouch: function() {
     var phone = this.data.mobel
     if (getApp().Coca.validate_phone(phone) == false) {
-      console.log('1')
       getApp().Coca.toast("手机号不正确")
     } else {
       this.yanzhengmaRequestUrl(phone)
@@ -138,6 +140,28 @@ Page({
         wx.navigateBack({
           
         })
+      }else{
+        getApp().Coca.toast(e.message)
+      }
+    })
+  },
+  /**
+   * 绑定手机号个人中心
+   */
+  requestUrl2: function (phone, yanzhengma){
+    var that = this
+    var data = {
+      mobile: phone,
+      user_id: wx.getStorageSync('uid'),
+      code: yanzhengma
+    }
+    getApp().Coca.http_get("index/update_mobile", data, function (e) {
+      if (e.code == 200) {
+        wx.navigateBack({
+
+        })
+      }else{
+        getApp().Coca.toast(e.message)
       }
     })
   }

@@ -3,117 +3,117 @@
   <!-- 答题 -->
   <view class='health_topics'>
     <view class='health_topic_block'>
-      <view class='health_topic_title'>1、您的年龄</view>
+      <view class='health_topic_title'>1、{{titleOne}}</view>
       <view class='health_topic'>
-        <view class='health_topic_single'>
+        <view class='health_topic_single' bindtap='oneTouch' data-index='1' data-titleid='{{titleOneId}}' data-id='{{oneOneId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
-          <view class='health_topic_single_font hover'>0~20岁</view>
+          <image class='health_topic_single_pic' src="{{picOneOne}}"></image>
+          <view class='{{ziOneOne}}'>{{oneOne}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>20~40岁</view>
+        <view class='health_topic_single' bindtap='oneTouch' data-index='2' data-titleid='{{titleOneId}}' data-id='{{oneTowId}}'>
+          <image class='health_topic_single_pic' src="{{picOneTow}}"></image>
+          <view class='{{ziOneTow}}'>{{oneTow}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>40~60岁</view>
+        <view class='health_topic_single' bindtap='oneTouch' data-index='3' data-titleid='{{titleOneId}}' data-id='{{oneThereId}}'>
+          <image class='health_topic_single_pic' src="{{picOneThere}}"></image>
+          <view class='{{ziOneThere}}'>{{oneThere}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>其他</view>
+        <view class='health_topic_single' bindtap='oneTouch' data-index='4' data-titleid='{{titleOneId}}' data-id='{{oneFourId}}'>
+          <image class='health_topic_single_pic' src="{{picOneFour}}"></image>
+          <view class='{{ziOneFour}}'>{{oneFour}}</view>
         </view>
       </view>
     </view>
     <view class='health_topic_block'>
-      <view class='health_topic_title'>2、您平时喜爱的运动类型</view>
+      <view class='health_topic_title'>2、{{titleTow}}</view>
       <view class='health_topic'>
-        <view class='health_topic_single'>
+        <view class='health_topic_single' bindtap='towTouch' data-index='1' data-titleid='{{titleTowId}}' data-id='{{towOneId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
-          <view class='health_topic_single_font hover'>走路</view>
+          <image class='health_topic_single_pic' src="{{picTowOne}}"></image>
+          <view class='{{ziTowOne}}'>{{towOne}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>慢跑</view>
+        <view class='health_topic_single' bindtap='towTouch' data-index='2' data-titleid='{{titleTowId}}' data-id='{{towTowId}}'>
+          <image class='health_topic_single_pic' src="{{picTowTow}}"></image>
+          <view class='{{ziTowTow}}'>{{towTow}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>球类</view>
+        <view class='health_topic_single' bindtap='towTouch' data-index='3' data-titleid='{{titleTowId}}' data-id='{{towThereId}}'>
+          <image class='health_topic_single_pic' src="{{picTowThere}}"></image>
+          <view class='{{ziTowThere}}'>{{towThere}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>其他</view>
+        <view class='health_topic_single' bindtap='towTouch' data-index='4' data-titleid='{{titleTowId}}' data-id='{{towFourId}}'>
+          <image class='health_topic_single_pic' src="{{picTowFour}}"></image>
+          <view class='{{ziTowFour}}'>{{towFour}}</view>
         </view>
       </view>
     </view>
     <view class='health_topic_block'>
-      <view class='health_topic_title'>3、您平时运动的时间多为</view>
+      <view class='health_topic_title'>3、{{titleThere}}</view>
       <view class='health_topic'>
-        <view class='health_topic_single'>
+        <view class='health_topic_single' bindtap='thereTouch' data-index='1' data-titleid='{{titleThereId}}' data-id='{{thereOneId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
-          <view class='health_topic_single_font hover'>清晨</view>
+          <image class='health_topic_single_pic' src="{{picThereOne}}"></image>
+          <view class='{{ziThereOne}}'>{{thereOne}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>中午</view>
+        <view class='health_topic_single' bindtap='thereTouch' data-index='2' data-titleid='{{titleThereId}}' data-id='{{thereTowId}}'>
+          <image class='health_topic_single_pic' src="{{picThereTow}}"></image>
+          <view class='{{ziThereTow}}'>{{thereTow}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>晚饭后</view>
+        <view class='health_topic_single' bindtap='thereTouch' data-index='3' data-titleid='{{titleThereId}}' data-id='{{thereThereId}}'>
+          <image class='health_topic_single_pic' src="{{picThereThere}}"></image>
+          <view class='{{ziThereThere}}'>{{thereThere}}</view>
         </view>
-        <view class='health_topic_single'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>其他</view>
+        <view class='health_topic_single' bindtap='thereTouch' data-index='4' data-titleid='{{titleFourId}}' data-id='{{thereFourId}}'>
+          <image class='health_topic_single_pic' src="{{picThereFour}}"></image>
+          <view class='{{ziThereFour}}'>{{thereFour}}</view>
         </view>
       </view>
     </view>
     <view class='health_topic_block'>
-      <view class='health_topic_title'>4、您的日均步数为</view>
+      <view class='health_topic_title'>4、{{titleFour}}</view>
       <view class='health_topic'>
-        <view class='health_topic_single_01'>
+        <view class='health_topic_single_01' bindtap='fourTouch' data-index='1' data-titleid='{{titleFourId}}' data-id='{{fourOneId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/radio-check.png"></image>
-          <view class='health_topic_single_font hover'>3000~5000</view>
+          <image class='health_topic_single_pic' src="{{picFourOne}}"></image>
+          <view class='{{ziFourOne}}'>{{fourOne}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>5000~8000</view>
+        <view class='health_topic_single_01' bindtap='fourTouch' data-index='2' data-titleid='{{titleFourId}}' data-id='{{fourTowId}}'>
+          <image class='health_topic_single_pic' src="{{picFourTow}}"></image>
+          <view class='{{ziFourTow}}'>{{fourTow}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>8000~10000</view>
+        <view class='health_topic_single_01' bindtap='fourTouch' data-index='3' data-titleid='{{titleFourId}}' data-id='{{fourThereId}}'>
+          <image class='health_topic_single_pic' src="{{picFourThere}}"></image>
+          <view class='{{ziFourThere}}'>{{fourThere}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image>
-          <view class='health_topic_single_font'>其他</view>
+        <view class='health_topic_single_01' bindtap='fourTouch' data-index='4' data-titleid='{{titleFourId}}' data-id='{{fourFourId}}'>
+          <image class='health_topic_single_pic' src="{{picFourFour}}"></image>
+          <view class='{{ziFourFour}}'>{{fourFour}}</view>
         </view>
       </view>
     </view>
     <view class='health_topic_block'>
-      <view class='health_topic_title'>5、您感兴趣的健康资讯为（可多选）</view>
+      <view class='health_topic_title'>5、{{titleFive}}</view>
       <view class='health_topic'>
-        <view class='health_topic_single_01'>
+        <view class='health_topic_single_01' bindtap='fiveTouch' data-index='1' data-titleid='{{titleFiveId}}' data-id='{{fiveOneId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/checkbox-check.png"></image>
-          <view class='health_topic_single_font hover'>调理养生类</view>
+          <image class='health_topic_single_pic' src="{{picFiveOne}}"></image>
+          <view class='{{ziFiveOne}}'>{{fiveOne}}</view>
         </view>
-        <view class='health_topic_single_01'>
+        <view class='health_topic_single_01' bindtap='fiveTouch' data-index='2' data-titleid='{{titleFiveId}}' data-id='{{fiveTowId}}'>
           <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
-          <image class='health_topic_single_pic' src="../../images/checkbox-check.png"></image>
-          <view class='health_topic_single_font hover'>康复保健类</view>
+          <image class='health_topic_single_pic' src="{{picFiveTow}}"></image>
+          <view class='{{ziFiveTow}}'>{{fiveTow}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
-          <view class='health_topic_single_font'>饮食习惯类</view>
+        <view class='health_topic_single_01' bindtap='fiveTouch' data-index='3' data-titleid='{{titleFiveId}}' data-id='{{fiveThereId}}'>
+          <image class='health_topic_single_pic' src="{{picFiveThere}}"></image>
+          <view class='{{ziFiveThere}}'>{{fiveThere}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
-          <view class='health_topic_single_font'>运动健身</view>
+        <view class='health_topic_single_01' bindtap='fiveTouch' data-index='4' data-titleid='{{titleFiveId}}' data-id='{{fiveFourId}}'>
+          <image class='health_topic_single_pic' src="{{picFiveFour}}"></image>
+          <view class='{{ziFiveFour}}'>{{fiveFour}}</view>
         </view>
-        <view class='health_topic_single_01'>
-          <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image>
-          <view class='health_topic_single_font'>其他</view>
+        <view class='health_topic_single_01' bindtap='fiveTouch' data-index='5' data-titleid='{{titleFiveId}}' data-id='{{fiveFiveId}}'>
+          <image class='health_topic_single_pic' src="{{picFiveFive}}"></image>
+          <view class='{{ziFiveFive}}'>{{fiveFive}}</view>
         </view>
       </view>
     </view>
