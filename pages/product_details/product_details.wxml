@@ -10,9 +10,11 @@
       <image class='product_details_foot_pic' src="{{dianzanImg}}"></image>
       <view class='{{dianzanZi}}'>点赞</view>
     </view>
-    <view class='product_details_foot'>
-      <image class='product_details_foot_pic' src="../../images/share.png"></image>
-      <view class='product_details_foot_fonts hover'>分享</view>
-    </view>
+    <button bindtap="handleTapShareButton" open-type="share" class="button-share" id="share-button">
+      <view class='product_details_foot'>
+        <image class='product_details_foot_pic' src="../../images/share.png"></image>
+        <view class='product_details_foot_fonts hover'>分享</view>
+      </view>
+    </button>
   </view>
 </view>

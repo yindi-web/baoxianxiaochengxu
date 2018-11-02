@@ -62,8 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
     return {
-      title: '自定义分享标题',
-      path: '../index/index?invitation_code='
+      title: '太平人寿',
+      desc: '自定义转发描述',
+      path: '../index/index?invitation_code=' + this.data.id,
+      imageUrl: '../index/index'
     }
   },
 
@@ -101,5 +103,14 @@ Page({
     wx.navigateTo({
       url: '../test_see/test_see?id=' + this.data.id,
     })
+  },
+  handleTapShareButton() {
+    if (!((typeof wx.canIUse === 'function') && wx.canIUse('button.open-type.share'))) {
+      wx.showModal({
+        title: '当前版本不支持转发按钮',
+        content: '请升级至最新版本微信客户端',
+        showCancel: false
+      })
+    }
   }
 })

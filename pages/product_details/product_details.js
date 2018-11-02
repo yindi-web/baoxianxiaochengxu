@@ -65,7 +65,9 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function() {
-
+    return {
+      title: '太平人寿'
+    }
   },
 
   /**
@@ -110,5 +112,14 @@ Page({
         getApp().Coca.toast(e.message)
       }
     })
+  },
+  handleTapShareButton() {
+    if (!((typeof wx.canIUse === 'function') && wx.canIUse('button.open-type.share'))) {
+      wx.showModal({
+        title: '当前版本不支持转发按钮',
+        content: '请升级至最新版本微信客户端',
+        showCancel: false
+      })
+    }
   }
 })

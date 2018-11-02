@@ -37,14 +37,16 @@
         <image class='health_topic_single_pic1' src="../../images/enter.png"></image>
       </view>
     </view>
-    <view class='agent_core_head' bindtap='onShareAppMessage'>
+    <view class='agent_core_head'>
       <view class='agent_core_head_left'>
         <image class='health_topic_single_pic' src="../../images/agent_core5.png"></image>
         <view class='agent_core_head_left_font'>分享</view>
       </view>
-      <view class='agent_core_head_right'>
-        <view class='agent_core_head_right_font'>点击分享</view>
-      </view>
+      <button bindtap="handleTapShareButton" open-type="share" class="button-share" id="share-button">
+        <view class='agent_core_head_right'>
+          <view class='agent_core_head_right_font'>点击分享</view>
+        </view>
+      </button>
     </view>
   </view>
 </view>
