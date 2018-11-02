@@ -28,11 +28,13 @@ page {
   width: 320rpx;
   height: 320rpx;
   display: block;
-  margin: 20rpx;
+  margin: 0 20rpx;
+  padding: 20rpx 0;
 }
 
 .customer_follow_head_font {
   font-size: 30rpx;
   color: #333;
-  margin: 20rpx;
+  margin: 0 20rpx;
+  padding-bottom: 20rpx;
 }

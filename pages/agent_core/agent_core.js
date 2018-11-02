@@ -63,9 +63,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '太平人寿',
-      desc: '自定义转发描述',
-      path: '../index/index?invitation_code=' + this.data.id,
-      imageUrl: '../index/index'
+      path: '../index/index?invitation_code='+this.data.id
     }
   },
 

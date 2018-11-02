@@ -38,6 +38,8 @@
 
 .agent_core_head_right{
   margin-right: 3%;
+  border: none;
+  background: none;
 }
 
 .health_topic_single_pic1{
@@ -48,4 +50,8 @@
 .agent_core_head_right_font{
   font-size: 30rpx;
   color: #888;
+}
+
+button::after{
+border: none;
 }

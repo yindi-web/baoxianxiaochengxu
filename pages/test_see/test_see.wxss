@@ -7,27 +7,31 @@
 
 .customer_list {
   width: 750rpx;
-  height: 100rpx;
-  line-height: 100rpx;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  align-items: center;
 }
 
-.customer_list:nth-child(2n) {
+.customer_list2 {
   width: 750rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
   background: #fbc7aa;
 }
 
 .customer_list_block {
-  width: 20%;
+  width: 24%;
   font-size: 30rpx;
   color: #333;
   text-align: center;
+  margin: 20rpx 0;
 }
 
 .customer_list_block:nth-child(4) {
-  width: 40%;
+  width: 28%;
   font-size: 30rpx;
   color: #333;
   text-align: center;

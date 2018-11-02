@@ -9,7 +9,7 @@
       <view class='customer_list_block'>电话</view>
     </view>
     <view wx:for='{{list}}' wx:key="this" wx:for-item="item">
-      <view class='customer_list'>
+      <view class="{{index%2==0?'customer_list2':'customer_list'}}">
         <view class='customer_list_block'>{{item.username}}</view>
         <view class='customer_list_block'>{{item.birth}}</view>
         <view class='customer_list_block'>{{item.sex}}</view>

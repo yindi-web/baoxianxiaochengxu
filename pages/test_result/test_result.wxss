@@ -6,12 +6,11 @@
 
 .customer_list {
   width: 750rpx;
-  height: 100rpx;
-  line-height: 100rpx;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   background: #fbc7aa;
+  align-items: center;
 }
 
 .customer_list_block {
@@ -19,6 +18,7 @@
   font-size: 30rpx;
   color: #333;
   text-align: center;
+  margin: 20rpx 0;
 }
 
 .customer_list_block:nth-child(4) {

@@ -17,7 +17,7 @@
       <view class='customer_list_block'>电话</view>
       <view class='customer_list_block'>步数</view>
     </view>
-    <view class='customer_list'>
+    <view class="{{index%2==0?'customer_list2':'customer_list'}}">
       <view class='customer_list_block'>小M</view>
       <view class='customer_list_block'>30</view>
       <view class='customer_list_block'>男</view>

@@ -42,10 +42,8 @@
         <image class='health_topic_single_pic' src="../../images/agent_core5.png"></image>
         <view class='agent_core_head_left_font'>分享</view>
       </view>
-      <button bindtap="handleTapShareButton" open-type="share" class="button-share" id="share-button">
-        <view class='agent_core_head_right'>
+      <button bindtap="handleTapShareButton" open-type="share" class="button-share" id="share-button" class='agent_core_head_right'>
           <view class='agent_core_head_right_font'>点击分享</view>
-        </view>
       </button>
     </view>
   </view>

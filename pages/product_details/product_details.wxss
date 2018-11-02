@@ -51,4 +51,5 @@
 }
 .product_details_foot .hover{
   color: #ef6f28;
+  
 }
