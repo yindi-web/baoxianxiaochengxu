@@ -66,6 +66,9 @@ Page({
                         }
                       }
                     })
+                  },
+                  fail: function(res){
+                    
                   }
                 })
               }
