@@ -3,7 +3,7 @@
 .signin_heads {
   width: 750rpx;
   height: 100vh;
-  background: url(http://app161.app.longcai.net/xcximg/signin_background.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/signin_background.png) no-repeat;
   background-size: 100% 100%;
 }
 
@@ -16,13 +16,13 @@
   width: 200rpx;
   height: 200rpx;
   line-height: 200rpx;
-  background: url(http://app161.app.longcai.net/xcximg/check.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/check.png) no-repeat;
   background-size: 100% 100%;
   text-align: center;
   font-size: 36rpx;
   color: #fff;
   display: block;
-  margin: 150rpx auto;
+  margin: 100rpx auto;
 }
 
 .signin_head_foots {
@@ -51,8 +51,8 @@
 
 .signin_head_foot {
   width: 94%;
-  height: 90rpx;
-  line-height: 90rpx;
+  height: 80rpx;
+  line-height: 80rpx;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -71,6 +71,6 @@
   width: 14%;
   height: 60rpx;
   line-height: 60rpx;
-  background: url(http://app161.app.longcai.net/xcximg/signin_bgy.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/signin_bgy.png) no-repeat;
   background-size: 100% 100%;
 }

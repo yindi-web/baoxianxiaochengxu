@@ -53,6 +53,6 @@
   border-radius: 10rpx;
   height: 100rpx;
   line-height: 100rpx;
-  font-size: 30rpx;
+  font-size: 40rpx;
   color: #fff;
 }

@@ -23,7 +23,8 @@
     "pages/healthy_motion/healthy_motion",
     "pages/peace_product/peace_product",
     "pages/personal_core/personal_core",
-    "pages/signin/signin"
+    "pages/signin/signin",
+    "pages/binding2/binding2"
   ],
   "window": {
     "backgroundTextStyle": "light",

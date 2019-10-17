@@ -4,6 +4,7 @@
   <view class='signin_heads'>
     <view class='signin_head_tops'>
       <view class='signin_head_button'>点击签到</view>
+      <!-- <view class='signin_head_button'>已签到</view> -->
     </view>
     <view class='signin_head_foots'>
       <view class='signin_head_foot_title'>

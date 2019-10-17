@@ -3,7 +3,6 @@
 .peace_product_heads {
   width: 750rpx;
   height: 200rpx;
-  background-size: 100% 100%;
   margin-bottom: 10rpx;
 }
 

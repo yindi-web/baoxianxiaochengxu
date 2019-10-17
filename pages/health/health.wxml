@@ -6,7 +6,6 @@
       <view class='health_topic_title'>1、{{titleOne}}</view>
       <view class='health_topic'>
         <view class='health_topic_single' bindtap='oneTouch' data-index='1' data-titleid='{{titleOneId}}' data-id='{{oneOneId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picOneOne}}"></image>
           <view class='{{ziOneOne}}'>{{oneOne}}</view>
         </view>
@@ -28,7 +27,6 @@
       <view class='health_topic_title'>2、{{titleTow}}</view>
       <view class='health_topic'>
         <view class='health_topic_single' bindtap='towTouch' data-index='1' data-titleid='{{titleTowId}}' data-id='{{towOneId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picTowOne}}"></image>
           <view class='{{ziTowOne}}'>{{towOne}}</view>
         </view>
@@ -50,7 +48,6 @@
       <view class='health_topic_title'>3、{{titleThere}}</view>
       <view class='health_topic'>
         <view class='health_topic_single' bindtap='thereTouch' data-index='1' data-titleid='{{titleThereId}}' data-id='{{thereOneId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picThereOne}}"></image>
           <view class='{{ziThereOne}}'>{{thereOne}}</view>
         </view>
@@ -72,7 +69,6 @@
       <view class='health_topic_title'>4、{{titleFour}}</view>
       <view class='health_topic'>
         <view class='health_topic_single_01' bindtap='fourTouch' data-index='1' data-titleid='{{titleFourId}}' data-id='{{fourOneId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/radio-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picFourOne}}"></image>
           <view class='{{ziFourOne}}'>{{fourOne}}</view>
         </view>
@@ -94,12 +90,10 @@
       <view class='health_topic_title'>5、{{titleFive}}</view>
       <view class='health_topic'>
         <view class='health_topic_single_01' bindtap='fiveTouch' data-index='1' data-titleid='{{titleFiveId}}' data-id='{{fiveOneId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picFiveOne}}"></image>
           <view class='{{ziFiveOne}}'>{{fiveOne}}</view>
         </view>
         <view class='health_topic_single_01' bindtap='fiveTouch' data-index='2' data-titleid='{{titleFiveId}}' data-id='{{fiveTowId}}'>
-          <!-- <image class='health_topic_single_pic' src="../../images/checkbox-uncheck.png"></image> -->
           <image class='health_topic_single_pic' src="{{picFiveTow}}"></image>
           <view class='{{ziFiveTow}}'>{{fiveTow}}</view>
         </view>

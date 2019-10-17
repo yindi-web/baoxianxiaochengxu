@@ -3,7 +3,7 @@
 .long_page_head {
   width: 750rpx;
   height: 2826rpx;
-  background: url(http://app161.app.longcai.net/xcximg/single_page_bg.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/long_page_pic.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
 }

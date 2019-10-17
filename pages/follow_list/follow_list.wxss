@@ -19,7 +19,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  background: #fbc7aa;
+  background: #8adb94;
 }
 
 .customer_list_block {

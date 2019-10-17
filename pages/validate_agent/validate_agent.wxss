@@ -20,10 +20,10 @@
 .validate_agent_button{
   width: 94%;
   text-align: center;
-  background: #ef6f28;
+  background: #11ac24;
   height: 110rpx;
   line-height: 110rpx;
-  font-size: 30rpx;
+  font-size: 40rpx;
   color: #fff;
   position: fixed;
   bottom: 50rpx;

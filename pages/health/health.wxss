@@ -54,18 +54,18 @@
 }
 
 .health_topic_single_01 .hover {
-  color: #ef6f28;
+  color: #11ac24;
 }
 
 .health_topic_single .hover {
-  color: #ef6f28;
+  color: #11ac24;
 }
 
 .health_button {
   width: 94%;
   margin: 50rpx auto;
   text-align: center;
-  background: #ef6f28;
+  background: #11ac24;
   border-radius: 10rpx;
   height: 100rpx;
   line-height: 100rpx;

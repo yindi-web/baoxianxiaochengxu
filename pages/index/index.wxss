@@ -7,7 +7,7 @@ page {
 .index_heads {
   width: 750rpx;
   height: 424rpx;
-  background: url(http://app161.app.longcai.net/xcximg/banner.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/banner.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
 }
@@ -40,25 +40,25 @@ page {
 .index_center {
   width: 94%;
   height: 210rpx;
-  background: url(http://app161.app.longcai.net/xcximg/sports.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/sports.png) no-repeat;
   background-size: 100% 100%;
   margin: 0 auto 40rpx auto;
   display: block;
 }
 
 .index_center:nth-child(2) {
-  background: url(http://app161.app.longcai.net/xcximg/life.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/life.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .index_center:nth-child(3) {
-  background: url(http://app161.app.longcai.net/xcximg/manage.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/manage.png) no-repeat;
   background-size: 100% 100%;
 }
 
 .index_center_font1 {
   font-size: 30rpx;
-  color: #eb5000;
+  color: #11ac24;
   margin: 0 3%;
   padding-top: 4%;
 }

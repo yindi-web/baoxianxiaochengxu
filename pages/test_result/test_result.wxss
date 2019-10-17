@@ -9,7 +9,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background: #fbc7aa;
+  background: #8adb94;
   align-items: center;
 }
 
@@ -81,9 +81,9 @@
 }
 
 .health_topic_single_01 .hover {
-  color: #ef6f28;
+  color: #11ac24;
 }
 
 .health_topic_single .hover {
-  color: #ef6f28;
+  color: #11ac24;
 }

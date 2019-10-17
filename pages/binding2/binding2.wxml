@@ -1,4 +1,4 @@
-<!--pages/binding/binding.wxml-->
+<!--pages/binding2/binding2.wxml-->
 <view class="container">
   <form bindsubmit="loginAction">
     <!-- 输入手机号 -->
@@ -11,7 +11,7 @@
         <view class='binding_head_right' bindtap='{{yanzhengmaTouch}}'>{{yanzhengmaBtn}}</view>
       </view>
     </view>
-    <!-- 下一页 -->
-    <button formType="submit" class='binding_font'>下一页</button>
+    <!-- 确定 -->
+    <button formType="submit" class='binding_font'>确定</button>
   </form>
 </view>

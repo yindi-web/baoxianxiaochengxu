@@ -9,7 +9,7 @@
   width: 94%;
   height: 200rpx;
   margin: 60rpx auto;
-  background: url(http://app161.app.longcai.net/xcximg/motion_background.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/motion_background.png) no-repeat;
   background-size: 100% 100%;
   display: flex;
   flex-direction: row;
@@ -22,14 +22,14 @@
   font-size: 40rpx;
   color: #fff;
   line-height: 200rpx;
-  margin-left: 3%;
+  margin-left: 6%;
 }
 
 .healthy_motion_head_right {
   font-size: 50rpx;
   color: #fff;
   line-height: 200rpx;
-  margin-right: 3%;
+  margin-right: 6%;
 }
 
 .healthy_motion_head_small {

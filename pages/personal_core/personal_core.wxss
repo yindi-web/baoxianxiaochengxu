@@ -3,7 +3,7 @@
 .personal_core_heads {
   width: 750rpx;
   height: 274rpx;
-  background: url(http://app161.app.longcai.net/xcximg/personal_background.png) no-repeat;
+  background: url(http://www.tplifehlj.com/xcximages/personal_background.png) no-repeat;
   background-size: 100% 100%;
   position: relative;
   border-top: 2rpx solid #c1c1c1;
@@ -48,7 +48,7 @@
 
 .personal_core_head_font3 {
   font-size: 26rpx;
-  color: #ef722d;
+  color: #fff;
 }
 
 .personal_core_centers {
